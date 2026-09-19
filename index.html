@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iglesia Evang&#233;lica de Santidad en Comayagua | IESCO</title>
+    <meta name="description" content="Conoce los horarios de reuniones y la ubicaci&#243;n de la Iglesia Evang&#233;lica de Santidad en Comayagua.">
+    <meta name="theme-color" content="#7B2D26">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="img/hero.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <img src="img/logo-web.png" alt="Logo de la Iglesia Evang&#233;lica de Santidad en Comayagua" class="hero__logo" width="120" height="120" loading="eager">
+            <h1 class="hero__title">Iglesia Evang&#233;lica de Santidad<br>en Comayagua</h1>
+            <p class="hero__subtitle">Bienvenido &#8212; Te esperamos con los brazos abiertos</p>
+        </div>
+    </header>
+    <main>
+        <section class="schedule" id="horarios" aria-labelledby="schedule-heading">
+            <div class="container">
+                <h2 class="section-title" id="schedule-heading">
+                    <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    Horarios de Reuniones
+                </h2>
+                <div class="schedule__group">
+                    <h3 class="schedule__group-title">Reuniones Semanales</h3>
+                    <div class="schedule__cards">
+                        <article class="schedule-card" aria-label="Reuni&#243;n del Domingo">
+                            <div class="schedule-card__day-badge"><span class="schedule-card__day-name">Domingo</span></div>
+                            <div class="schedule-card__time"><span class="schedule-card__hour">9:30</span><span class="schedule-card__period">a.&#160;m.</span></div>
+                        </article>
+                        <article class="schedule-card" aria-label="Reuni&#243;n del Mi&#233;rcoles">
+                            <div class="schedule-card__day-badge"><span class="schedule-card__day-name">Mi&#233;rcoles</span></div>
+                            <div class="schedule-card__time"><span class="schedule-card__hour">6:00</span><span class="schedule-card__period">p.&#160;m.</span></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="schedule__group">
+                    <h3 class="schedule__group-title">Reuni&#243;n Juvenil</h3>
+                    <div class="schedule__cards">
+                        <article class="schedule-card schedule-card--youth" aria-label="Reuni&#243;n Juvenil del S&#225;bado">
+                            <div class="schedule-card__day-badge"><span class="schedule-card__day-name">S&#225;bado</span></div>
+                            <div class="schedule-card__time"><span class="schedule-card__hour">6:00</span><span class="schedule-card__period">p.&#160;m.</span></div>
+                            <span class="schedule-card__label">J&#243;venes</span>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="location" id="ubicacion" aria-labelledby="location-heading">
+            <div class="container">
+                <h2 class="section-title" id="location-heading">
+                    <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Ubicaci&#243;n
+                </h2>
+                <div class="location__content">
+                    <div class="location__address-block">
+                        <p class="location__address">Comayagua, Barrio Arriba, esquina opuesta al Parque La Merced.</p>
+                    </div>
+                    <a href="https://maps.app.goo.gl/43r82gxhJNUayQC77" target="_blank" rel="noopener noreferrer" class="btn btn--maps" id="btn-google-maps" aria-label="Ver ubicaci&#243;n de la Iglesia en Google Maps">
+                        <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Ver ubicaci&#243;n en Google Maps
+                        <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <img src="img/logo-web.png" alt="Logo IESCO" class="footer__logo" width="48" height="48" loading="lazy">
+            <p class="footer__name">Iglesia Evang&#233;lica de Santidad en Comayagua &#8212; IESCO</p>
+        </div>
+    </footer>
+</body>
+</html>
